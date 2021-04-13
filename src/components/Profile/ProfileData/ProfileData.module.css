@@ -1,0 +1,39 @@
+.profileWrapper {
+    display: flex;
+    margin: 25px 0;
+}
+
+.avatar {
+    flex: 0 0 auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+.avatar img {
+    object-fit: cover;
+}
+
+.info{
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0 100px 0 0;
+    margin-left: 30px;
+}
+
+.infoGroup {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.infoGroup > span:first-child {
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}

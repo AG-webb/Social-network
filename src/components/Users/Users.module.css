@@ -1,0 +1,24 @@
+.wrapper {
+    padding: 25px;
+    background-color: #3f3f3f;
+}
+
+.heading {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+}
+
+.usersWrapper {
+    margin-top: 30px;
+    position: relative;
+    height: 100%;
+}
+
+.moreBtn {
+    display: block;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}

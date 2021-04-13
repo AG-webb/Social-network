@@ -1,0 +1,16 @@
+.socialIcons {
+    display: flex;
+}
+
+.socialIcons a {
+    display: inline-block;
+    margin-right: 15px;
+    text-transform: uppercase;
+    color: #3f3f3f;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.socialIcons a:hover {
+    transform: translateY(-10px);
+}

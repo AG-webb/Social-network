@@ -1,0 +1,9 @@
+
+.inputGroup.invaild input,
+.inputGroup.invaild textarea {
+    border-color: red;
+}
+
+.inputGroup .errorMessage {
+    color: red;
+}

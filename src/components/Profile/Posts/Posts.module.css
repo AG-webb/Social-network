@@ -1,0 +1,17 @@
+.posts {
+    color: #3f3f3f;
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.addPost * {
+    display: block;
+}
+
+.postsWrapper {
+    margin-top: 35px;
+}

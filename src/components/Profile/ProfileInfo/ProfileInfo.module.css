@@ -1,0 +1,13 @@
+.wrapper {
+    color: #3f3f3f;
+}
+
+.wrapper img {
+    max-height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.profile h1 {
+    text-align: center;
+}

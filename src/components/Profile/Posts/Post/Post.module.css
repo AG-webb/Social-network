@@ -1,0 +1,19 @@
+.item {
+    display: flex;
+    margin-top: 15px;
+    position: relative;
+    padding-bottom: 22px;
+}
+
+.description {
+    margin-left: 30px;
+}
+
+.likes {
+    display: block;
+    font-weight: bold;
+    color: #3f3f3f;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}

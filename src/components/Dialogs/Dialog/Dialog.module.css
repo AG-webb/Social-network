@@ -1,0 +1,10 @@
+.dialog a {
+    margin-bottom: 15px;
+    display: block;
+    color: #fff;
+    font-size: 20px;
+}
+
+.dialog a.active {
+    color: grey;
+}

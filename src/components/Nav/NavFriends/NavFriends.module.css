@@ -1,0 +1,13 @@
+.wrapper {
+    margin-top: 100px;
+}
+
+.title {
+    font-size: 54px;
+}
+
+.block {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}

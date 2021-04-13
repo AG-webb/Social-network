@@ -1,0 +1,55 @@
+.header {
+    grid-area: h;
+    background-color: #3f3f3f;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.header img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+
+.title {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-left: 15px;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.account {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+}
+
+.loginBtn {
+    color: #fff;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.loginBtn:hover {
+    color: grey;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logout {
+    margin-left: 60px;
+    cursor: pointer;
+    padding: 0px 5px 4px 5px;
+    background-color: gray;
+}

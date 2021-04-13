@@ -1,38 +1,95 @@
-.App {
-  text-align: center;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wrapper {
+    padding-top: 60px 20px;
+    display: grid;
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 3fr 10fr;
+    grid-gap: 10px;
+    grid-template-areas: 
+    "h h"
+    "n c";
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    color: #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+a {
+    display: inline-block;
+    text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
 }
 
-.App-link {
-  color: #61dafb;
+
+.content {
+    grid-area: c;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.avatar {
+    width: 50px;
+    height: 50px;
+    flex: 0 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
 }
+
+.avatar img {
+    object-fit: cover;
+}
+
+.textarea {
+    width: 100%;
+    min-height: 150px;
+    resize: vertical;
+    border: 2px solid rgba(128, 128, 128, 0.2);
+    border-radius: 6px;
+    padding: 20px;
+    outline: none;
+    font-size: 20px;
+}
+
+.btn {
+    padding: 10px 15px;
+    background-color: #27ae60;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.addBtn {
+    text-transform: uppercase;
+    border-radius: 6px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.addBtn:hover {
+    box-shadow: none;
+}
+
+.error {
+    color: red;
+    display: block;
+    margin-top: 15px;
+    font-size: 14px;    
+}
+
+
+
+

@@ -1,0 +1,14 @@
+.item a{
+    font-size: 30px;
+    color: #fff;
+    display: block;
+    margin-top: 10px;
+}
+
+.item a.active {
+    color: grey;
+}
+
+.settings {
+    margin-top: 60px;
+}
